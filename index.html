@@ -13,6 +13,14 @@
           "Digite o nome do item ou - se quiser concluir a lista"
         )
       }
+      if (lista.length == 0) {
+        alert("a lista esta vazia!")
+      } else {
+        alert("itens da lista")
+        for (let i = 0; i < lista.length; i++) {
+          alert(lista[i])
+        }
+      }
     </script>
   </body>
 </html>
